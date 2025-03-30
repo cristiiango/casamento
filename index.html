@@ -104,7 +104,9 @@
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
 								<h1>Ana Luisa &amp; Cristian</h1>
 								<h2>Vamos nos casar!</h2>
-								<div class="simply-countdown simply-countdown-one"></div>
+								<div class="simply-countdown simply-countdown-one">
+
+								</div>
 								<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
 							</div>
 						</div>
@@ -356,15 +358,6 @@
 
 		<!--Paleta de cores dos padrinhos e madrinhas-->
 
-		<div class="col-md-6 animate-box">
-			<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-				<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i
-						class="icon-video2"></i></a>
-				<div class="overlay"></div>
-			</div>
-		</div>
-	</div>
-
 
 	</div>
 	</div>
@@ -421,23 +414,20 @@
 	<script src="js/main.js"></script>
 
 	<script>
-		var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+		// Definindo a data do casamento: 17 de maio de 2025
+		var casamentoData = {
+			year: 2025,
+			month: 5,
+			day: 17
+		};
 
-		// default example
-		simplyCountdown('.simply-countdown-one', {
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate()
-		});
+		// Configuração para o contador padrão
+		simplyCountdown('.simply-countdown-one', casamentoData);
 
-		//jQuery example
-		$('#simply-countdown-losange').simplyCountdown({
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate(),
-			enableUtc: false
-		});
+		// Configuração para o contador com jQuery
+		$('#simply-countdown-losange').simplyCountdown(casamentoData);
 	</script>
+
 
 </body>
 
