@@ -2143,7 +2143,7 @@ form label {
 }
 
 #fh5co-logo img {
-  max-width: 150px;
+  max-width: 110px;
   /* Define um tamanho máximo para o logo */
   height: auto;
   /* Mantém a proporção da imagem */
@@ -2152,7 +2152,7 @@ form label {
 /* Ajuste para telas menores, se necessário */
 @media (max-width: 768px) {
   #fh5co-logo img {
-    max-width: 120px;
+    max-width: 80px;
     /* Reduz um pouco o logo em dispositivos móveis */
   }
 }
