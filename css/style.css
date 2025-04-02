@@ -2186,6 +2186,21 @@ form label {
     display: none !important;
   }
 
+  #fh5co-header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Garante que o header ocupe a tela inteira */
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Evita rolagem lateral indesejada */
+  }
 
 
   /*# sourceMappingURL=style.css.map */
