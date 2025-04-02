@@ -50,7 +50,7 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -59,7 +59,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   outline: none;
   text-decoration: none;
 }
@@ -83,17 +83,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: rgb(144, 158, 135);
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: rgb(144, 158, 135);
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: rgb(144, 158, 135);
 }
 
 .fh5co-nav {
@@ -230,7 +230,7 @@ figure {
 }
 
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: rgb(144, 158, 135);
 }
 
 .fh5co-nav ul li.btn-cta a span {
@@ -871,7 +871,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -893,7 +893,7 @@ figure {
 }
 
 .fh5co-contact-info ul li:before {
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   position: absolute;
   left: 0;
   top: .05em;
@@ -1000,7 +1000,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1178,7 +1178,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1204,7 +1204,7 @@ form label {
 
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   font-size: 30px;
 }
 
@@ -1318,7 +1318,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
 }
 
 .feature-center p,
@@ -1345,7 +1345,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   font-family: "Sacramento", Arial, serif;
 }
 
