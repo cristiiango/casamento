@@ -1919,10 +1919,8 @@
   .btn-primary:hover,
   .btn-primary:focus,
   .btn-primary:active {
-    background: hsl(91, 11%, 57%);
-    !important;
-    border-color: hsl(91, 11%, 57%);
-    !important;
+    background: hsl(91, 11%, 57%) !important;
+    border-color: hsl(91, 11%, 57%) !important;
   }
 
   .btn-primary.btn-outline {
