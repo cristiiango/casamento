@@ -199,9 +199,9 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 							<span>Nós nos amamos</span>
-							<h2>Nossa história</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-								there live the blind texts.</p>
+							<h2>Um pouco da nossa história</h2>
+							<p>Após três anos de namoro, decidimos dar o próximo passo e dizer "sim" para uma nova
+								jornada juntos! </p>
 						</div>
 					</div>
 					<div class="row">
@@ -277,98 +277,85 @@
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-12">
 							<ul id="fh5co-gallery-list">
-
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-1.jpg); ">
-									<a href="images/gallery-1.jpg">
-										<div class="case-studies-summary">
-											<span>14 Photos</span>
-											<h2>Two Glas of Juice</h2>
-										</div>
-									</a>
-								</li>
+									style="background-image: url(images/gallery-1.jpg); "
+									onclick="openModal('images/gallery-1.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-2.jpg); ">
-									<a href="#" class="color-2">
-										<div class="case-studies-summary">
-											<span>30 Photos</span>
-											<h2>Timer starts now!</h2>
-										</div>
-									</a>
-								</li>
-
-
+									style="background-image: url(images/gallery-2.jpg); "
+									onclick="openModal('images/gallery-2.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-3.jpg); ">
-									<a href="#" class="color-3">
-										<div class="case-studies-summary">
-											<span>90 Photos</span>
-											<h2>Beautiful sunset</h2>
-										</div>
-									</a>
-								</li>
+									style="background-image: url(images/gallery-3.jpg); "
+									onclick="openModal('images/gallery-3.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-4.jpg); ">
-									<a href="#" class="color-4">
-										<div class="case-studies-summary">
-											<span>12 Photos</span>
-											<h2>Company's Conference Room</h2>
-										</div>
-									</a>
-								</li>
-
+									style="background-image: url(images/gallery-4.jpg); "
+									onclick="openModal('images/gallery-4.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-5.jpg); ">
-									<a href="#" class="color-3">
-										<div class="case-studies-summary">
-											<span>50 Photos</span>
-											<h2>Useful baskets</h2>
-										</div>
-									</a>
-								</li>
+									style="background-image: url(images/gallery-5.jpg); "
+									onclick="openModal('images/gallery-5.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-6.jpg); ">
-									<a href="#" class="color-4">
-										<div class="case-studies-summary">
-											<span>45 Photos</span>
-											<h2>Skater man in the road</h2>
-										</div>
-									</a>
-								</li>
-
+									style="background-image: url(images/gallery-6.jpg); "
+									onclick="openModal('images/gallery-6.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-7.jpg); ">
-									<a href="#" class="color-4">
-										<div class="case-studies-summary">
-											<span>35 Photos</span>
-											<h2>Two Glas of Juice</h2>
-										</div>
-									</a>
-								</li>
-
+									style="background-image: url(images/gallery-7.jpg); "
+									onclick="openModal('images/gallery-7.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-8.jpg); ">
-									<a href="#" class="color-5">
-										<div class="case-studies-summary">
-											<span>90 Photos</span>
-											<h2>Timer starts now!</h2>
-										</div>
-									</a>
-								</li>
+									style="background-image: url(images/gallery-8.jpg); "
+									onclick="openModal('images/gallery-8.jpg')"></li>
 								<li class="one-third animate-box" data-animate-effect="fadeIn"
-									style="background-image: url(images/gallery-9.jpg); ">
-									<a href="#" class="color-6">
-										<div class="case-studies-summary">
-											<span>56 Photos</span>
-											<h2>Beautiful sunset</h2>
-										</div>
-									</a>
-								</li>
+									style="background-image: url(images/gallery-9.jpg); "
+									onclick="openModal('images/gallery-9.jpg')"></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<!-- Modal para exibição da imagem -->
+			<div id="imageModal" class="modal" onclick="closeModal()">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="modalImage">
+			</div>
+
+			<style>
+				.modal {
+					display: none;
+					position: fixed;
+					z-index: 1000;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					background-color: rgba(0, 0, 0, 0.8);
+					text-align: center;
+				}
+
+				.modal-content {
+					margin: auto;
+					display: block;
+					max-width: 90%;
+					max-height: 90%;
+				}
+
+				.close {
+					position: absolute;
+					top: 20px;
+					right: 40px;
+					color: white;
+					font-size: 40px;
+					cursor: pointer;
+				}
+			</style>
+
+			<script>
+				function openModal(src) {
+					document.getElementById('modalImage').src = src;
+					document.getElementById('imageModal').style.display = 'block';
+				}
+				function closeModal() {
+					document.getElementById('imageModal').style.display = 'none';
+				}
+			</script>
+
 
 			<!--Paleta de cores dos padrinhos e madrinhas-->
 
