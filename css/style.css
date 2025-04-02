@@ -238,7 +238,7 @@
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -2148,29 +2148,6 @@
     text-align: center;
   }
 
-  .display-t {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
 
-  .display-tc {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .col-md-6 {
-    margin: 0 auto;
-    /* Centraliza o bloco */
-    float: none;
-  }
-
-  .event-wrap {
-    text-align: center;
-  }
 
   /*# sourceMappingURL=style.css.map */
