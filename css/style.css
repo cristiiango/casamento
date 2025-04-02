@@ -2124,4 +2124,22 @@ form label {
   opacity: 0;
 }
 
+#fh5co-header {
+  background-size: cover;
+  /* Garante que a imagem cubra toda a área */
+  background-position: center center;
+  /* Mantém a imagem sempre centralizada */
+  background-repeat: no-repeat;
+  /* Evita repetições */
+}
+
+/* Para garantir melhor adaptação em telas pequenas */
+@media (max-width: 768px) {
+  #fh5co-header {
+    background-size: contain;
+    /* Alternativa para manter a imagem visível sem cortes */
+    background-position: center center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
