@@ -2099,7 +2099,7 @@ form label {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F14E95;
+  border-color: rgb(144, 158, 135);
 }
 
 .row-pb-md {
