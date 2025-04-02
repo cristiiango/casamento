@@ -1386,7 +1386,7 @@ form label {
 }
 
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F14E95;
+  color: rgb(144, 158, 135);
   font-weight: 300;
 }
 
@@ -1493,7 +1493,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: rgb(144, 158, 135);
 }
 
 .feature-left .feature-copy {
@@ -1572,7 +1572,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F14E95;
+  background: rgb(144, 158, 135);
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1627,7 +1627,7 @@ form label {
 
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #F14E95;
+  border: 2px solid rgb(144, 158, 135);
 }
 
 #fh5co-offcanvas {
@@ -1912,28 +1912,28 @@ form label {
 }
 
 .btn-primary {
-  background: #F14E95;
+  background: rgb(144, 158, 135);
   color: #fff;
-  border: 2px solid #F14E95;
+  border: 2px solid rgb(144, 158, 135);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: rgb(144, 158, 135) !important;
+  border-color: rgb(144, 158, 135) !important;
 }
 
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F14E95;
-  border: 2px solid #F14E95;
+  color: rgb(144, 158, 135);
+  border: 2px solid rgb(144, 158, 135);
 }
 
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-  background: #F14E95;
+  background: rgb(144, 158, 135);
   color: #fff;
 }
 
@@ -2186,19 +2186,6 @@ form label {
   display: none !important;
 }
 
-#fh5co-couple-story {
-  background-image: url('images/background.jpg');
-  /* Substitua pelo caminho correto da imagem */
-  background-size: cover;
-  /* Ajusta a imagem para cobrir toda a área */
-  background-position: center;
-  /* Centraliza a imagem */
-  background-attachment: fixed;
-  /* Mantém a imagem fixa ao rolar a página */
-  padding: 100px 0;
-  /* Ajuste conforme necessário */
-  color: white;
-  /* Garante que o texto fique legível */
-}
+
 
 /*# sourceMappingURL=style.css.map */
