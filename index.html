@@ -87,6 +87,22 @@
 								<h1>Ana Luisa &amp; Cristian</h1>
 								<h2>Vamos nos casar!</h2>
 								<div class="simply-countdown simply-countdown-one">
+									<div class="simply-countdown-one" id="simply-countdown-losange">
+										<div class="row">
+											<div class="col-md-4 col-sm-4 col-xs-4 text-center">
+												<div class="simply-countdown-one-day"></div>
+												<div class="simply-countdown-one-day-label">Dias</div>
+											</div>
+											<div class="col-md-4 col-sm-4 col-xs-4 text-center">
+												<div class="simply-countdown-one-hour"></div>
+												<div class="simply-countdown-one-hour-label">Horas</div>
+											</div>
+											<div class="col-md-4 col-sm-4 col-xs-4 text-center">
+												<div class="simply-countdown-one-min"></div>
+												<div class="simply-countdown-one-min-label">Minutos</div>
+											</div>
+										</div>
+									</div>
 
 								</div>
 
@@ -188,9 +204,11 @@
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.3861827967057!2d-43.03718698118672!3d-19.76482373224047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa50e3570702157%3A0x2f1a050dcc7d2b94!2sIgreja%20Matriz%20de%20S%C3%A3o%20Jos%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1743631875532!5m2!1spt-BR!2sbr"
 								width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
 								referrerpolicy="no-referrer-when-downgrade"></iframe>
-							<p><a href="https://maps.app.goo.gl/tyYDzMmjNtwzmnHe7" class="btn btn-default btn-sm">Abrir
-									no GPS</a></p>
+
 						</div>
+
+						<p><a href="https://maps.app.goo.gl/tyYDzMmjNtwzmnHe7" class="btn btn-default btn-sm">Abrir
+								no GPS</a></p>
 					</div>
 				</div>
 			</div>
@@ -427,13 +445,17 @@
 			year: 2025,
 			month: 5,
 			day: 17,
+			hours: 16,
+			minutes: 0,
 			words: {
 				days: 'dias',
 				hours: 'horas',
 				minutes: 'minutos',
 				pluralLetter: ''
 			},
-			enableSeconds: false
+			enableSeconds: false,
+			removeZeroUnits: true
+
 		};
 
 		// Configuração para o contador padrão
