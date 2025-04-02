@@ -2186,5 +2186,19 @@ form label {
   display: none !important;
 }
 
+#fh5co-couple-story {
+  background-image: url('images/background.jpg');
+  /* Substitua pelo caminho correto da imagem */
+  background-size: cover;
+  /* Ajusta a imagem para cobrir toda a área */
+  background-position: center;
+  /* Centraliza a imagem */
+  background-attachment: fixed;
+  /* Mantém a imagem fixa ao rolar a página */
+  padding: 100px 0;
+  /* Ajuste conforme necessário */
+  color: white;
+  /* Garante que o texto fique legível */
+}
 
 /*# sourceMappingURL=style.css.map */
