@@ -1082,6 +1082,28 @@ form label {
   text-align: center;
 }
 
+/* Ajuste do texto dentro do círculo */
+.simply-countdown>.simply-section .simply-amount,
+.simply-countdown>.simply-section .simply-word {
+  display: block;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  /* Evita espaçamento desnecessário */
+}
+
+/* Ajuste do tamanho dos números */
+.simply-countdown>.simply-section .simply-amount {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Ajuste do tamanho das palavras */
+.simply-countdown>.simply-section .simply-word {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 /* Ajuste para telas menores */
 @media (max-width: 768px) {
   .simply-countdown>.simply-section {
@@ -1091,11 +1113,11 @@ form label {
   }
 
   .simply-countdown>.simply-section .simply-amount {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .simply-countdown>.simply-section .simply-word {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
@@ -1107,25 +1129,12 @@ form label {
   }
 
   .simply-countdown>.simply-section .simply-amount {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .simply-countdown>.simply-section .simply-word {
-    font-size: 8px;
+    font-size: 7px;
   }
-}
-
-/* Estilo do texto */
-.simply-countdown>.simply-section .simply-amount {
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
-}
-
-.simply-countdown>.simply-section .simply-word {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: white;
 }
 
 
