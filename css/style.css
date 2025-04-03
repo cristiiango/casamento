@@ -2203,30 +2203,47 @@ form label {
   }
 
   .btn-gps {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 220px;
     /* Aumenta o tamanho do botão */
     height: 55px;
     background-color: #28a745;
     /* Cor verde */
     color: white;
-    text-align: center;
     font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
     /* Centraliza horizontalmente e afasta do mapa */
     text-decoration: none;
-    line-height: 55px;
-    /* Centraliza o texto verticalmente */
   }
 
   .btn-gps:hover {
     background-color: #218838;
     /* Tom de verde mais escuro no hover */
   }
+
+  .btn-container {
+    text-align: center;
+    /* Garante a centralização */
+    margin-top: 30px;
+    /* Adiciona espaço entre o mapa e o botão */
+  }
+
+  .fh5co-heading span {
+    display: block;
+    /* Garante que a margem seja aplicada corretamente */
+    margin-top: 30px;
+    /* Ajuste o valor conforme necessário */
+    font-size: 20px;
+    /* Ajuste opcional para melhorar a visualização */
+    font-weight: bold;
+  }
+
 
 
   /*# sourceMappingURL=style.css.map */
