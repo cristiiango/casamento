@@ -52,6 +52,24 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style>
+		/* Corrige o problema de barras de rolagem duplicadas */
+		html,
+		body {
+			overflow-x: hidden;
+		}
+
+		/* Garante que os elementos sejam renderizados corretamente */
+		.fh5co-cover {
+			will-change: transform;
+		}
+
+		/* Ajusta o comportamento de elementos que podem causar problemas de layout */
+		.container {
+			max-width: 100%;
+			overflow: hidden;
+		}
+	</style>
 </head>
 
 <body>

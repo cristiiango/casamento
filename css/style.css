@@ -2128,4 +2128,27 @@ form label {
   }
 }
 
+.js .animate-box {
+  opacity: 1;
+  /* Torna o texto visível */
+  transition: opacity 0.5s ease-in-out;
+  /* Adiciona transição */
+}
+
+@media (max-width: 768px) {
+  .fh5co-bg {
+    background-size: cover;
+    /* Ajusta para cobrir o elemento */
+    background-position: center center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+  }
+}
+
+.fh5co-loader {
+  display: none;
+  /* Oculta o loader após o carregamento */
+}
+
 /*# sourceMappingURL=style.css.map */
