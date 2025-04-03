@@ -421,8 +421,8 @@ figure {
   width: 100%;
 }
 
-#fh5co-counter .fh5co-heading h2,
-#fh5co-event .fh5co-heading h2 {
+#fh5co-counter,
+#fh5co-event {
   color: #fff;
 }
 
