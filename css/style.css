@@ -2286,6 +2286,31 @@ form label {
     /* Remove qualquer alinhamento lateral */
   }
 
+  #fh5co-event {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    /* Ajuste conforme necessário */
+  }
+
+  #fh5co-event .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Efeito de escurecimento */
+  }
+
+  #fh5co-event .container {
+    position: relative;
+    z-index: 2;
+    /* Garante que o conteúdo fique acima do fundo */
+    color: white;
+  }
 
 
   /*# sourceMappingURL=style.css.map */
