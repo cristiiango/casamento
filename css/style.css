@@ -1066,19 +1066,34 @@ form label {
 }
 
 .simply-countdown>.simply-section {
-  /* coutndown blocks */
   display: inline-block;
   width: 100px;
   height: 100px;
   background: rgba(144, 158, 135, 0.8);
   margin: 0 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   position: relative;
-  animation: pulse 1s ease infinite;
 }
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .simply-countdown>.simply-section {
+    width: 70px;
+    /* Reduz tamanho dos blocos */
+    height: 70px;
+    margin: 0 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .simply-countdown>.simply-section {
+    width: 50px;
+    /* Tamanho ainda menor para telas muito pequenas */
+    height: 50px;
+    margin: 0 2px;
+  }
+}
+
 
 @keyframes pulse {
   0% {
@@ -2182,9 +2197,7 @@ form label {
     text-align: center;
   }
 
-  .simply-seconds-section {
-    display: none !important;
-  }
+
 
   #fh5co-header {
     background-size: cover;
@@ -2230,14 +2243,14 @@ form label {
   .btn-container {
     text-align: center;
     /* Garante a centralização */
-    margin-top: 30px;
+    margin-top: 80px;
     /* Adiciona espaço entre o mapa e o botão */
   }
 
   .fh5co-heading span {
     display: block;
     /* Garante que a margem seja aplicada corretamente */
-    margin-top: 30px;
+    margin-top: 80px;
     /* Ajuste o valor conforme necessário */
     font-size: 20px;
     /* Ajuste opcional para melhorar a visualização */
