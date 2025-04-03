@@ -2206,14 +2206,24 @@ form label {
   background-repeat: no-repeat;
 }
 
+/* Torna os elementos com a classe bg-image responsivos */
 .bg-image {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-/* Styles for header-banner, header-title, and header-subtitle */
-.header-banner {
+/* Ajuste adicional para telas menores */
+@media (max-width: 768px) {
+  .bg-image {
+    background-size: contain;
+    /* Ajusta para conter a imagem */
+    background-position: center top;
+    /* Centraliza no topo */
+  }
+}
+
+.bg-image {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
