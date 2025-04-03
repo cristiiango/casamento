@@ -2287,6 +2287,33 @@ form label {
     font-weight: bold;
   }
 
+  .display-t {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .display-tc {
+    text-align: center;
+    width: 100%;
+  }
+
+  .col-md-10 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-md-6 {
+    margin: 0 auto;
+    /* Garante centralização horizontal */
+    float: none;
+    /* Remove qualquer alinhamento lateral */
+  }
+
 
 
   /*# sourceMappingURL=style.css.map */
