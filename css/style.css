@@ -2187,4 +2187,10 @@ form label {
   background-repeat: no-repeat;
 }
 
+.bg-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
