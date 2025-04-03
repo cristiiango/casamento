@@ -473,6 +473,17 @@ figure {
   background: rgba(0, 0, 0, 0.4);
 }
 
+#fh5co-event {
+  background-size: cover;
+  /* Ajusta o tamanho do fundo para cobrir a div */
+  background-position: center center;
+  /* Centraliza o fundo */
+  background-repeat: no-repeat;
+  /* Evita repetição do fundo */
+  overflow: hidden;
+  /* Garante que o conteúdo não ultrapasse os limites da div */
+}
+
 @media screen and (max-width: 768px) {
 
   #fh5co-counter,
