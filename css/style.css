@@ -289,6 +289,25 @@ figure {
   }
 }
 
+/* Ajuste de espaçamento entre letras */
+#fh5co-header h1,
+#fh5co-header h2,
+.fh5co-heading h2 {
+  letter-spacing: 1px;
+  /* Aumenta o espaçamento entre letras */
+}
+
+/* Ajuste adicional para telas menores */
+@media (max-width: 768px) {
+
+  #fh5co-header h1,
+  #fh5co-header h2,
+  .fh5co-heading h2 {
+    letter-spacing: 0.5px;
+    /* Reduz o espaçamento em telas menores */
+  }
+}
+
 .fh5co-video {
   height: 450px;
   overflow: hidden;
@@ -2191,6 +2210,40 @@ form label {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+/* Styles for header-banner, header-title, and header-subtitle */
+.header-banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  /* Adjust padding for better spacing */
+}
+
+.header-title {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header-subtitle {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 40px;
+  }
+
+  .header-subtitle {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
