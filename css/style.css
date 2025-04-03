@@ -2312,5 +2312,11 @@ form label {
     color: white;
   }
 
+  #fh5co-map .container {
+    position: relative;
+    z-index: 2;
+    /* Garante que o conteúdo fique acima do fundo */
+    color: white;
+  }
 
   /*# sourceMappingURL=style.css.map */
