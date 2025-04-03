@@ -2202,5 +2202,31 @@ form label {
     /* Evita rolagem lateral indesejada */
   }
 
+  .btn-gps {
+    display: block;
+    width: 220px;
+    /* Aumenta o tamanho do botão */
+    height: 55px;
+    background-color: #28a745;
+    /* Cor verde */
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 30px auto;
+    /* Centraliza horizontalmente e afasta do mapa */
+    text-decoration: none;
+    line-height: 55px;
+    /* Centraliza o texto verticalmente */
+  }
+
+  .btn-gps:hover {
+    background-color: #218838;
+    /* Tom de verde mais escuro no hover */
+  }
+
 
   /*# sourceMappingURL=style.css.map */
