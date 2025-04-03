@@ -361,8 +361,6 @@ figure {
   z-index: 10;
 }
 
-
-
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
   height: 900px;
@@ -2149,6 +2147,30 @@ form label {
 .fh5co-loader {
   display: none;
   /* Oculta o loader após o carregamento */
+}
+
+/* Ajusta as imagens de fundo para zoom e centralização */
+.fh5co-cover,
+.fh5co-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Ajuste adicional para telas menores */
+@media (max-width: 768px) {
+
+  .fh5co-cover,
+  .fh5co-bg {
+    background-attachment: fixed;
+  }
+}
+
+/* Ajuste para a galeria */
+#fh5co-gallery-list li {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
