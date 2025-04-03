@@ -276,6 +276,20 @@ figure {
   position: relative;
 }
 
+/* Ajusta a imagem de fundo para centralização e corte proporcional */
+#fh5co-header {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Ajuste adicional para telas menores */
+@media (max-width: 768px) {
+  #fh5co-header {
+    background-attachment: scroll;
+  }
+}
+
 .fh5co-video {
   height: 450px;
   overflow: hidden;
