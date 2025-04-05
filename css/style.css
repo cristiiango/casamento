@@ -2292,4 +2292,15 @@ form label {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.btn-primary {
+  background-color: #71816e !important;
+  border-color: #71816e !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #71816e !important;
+  border-color: #71816e !important;
+}
